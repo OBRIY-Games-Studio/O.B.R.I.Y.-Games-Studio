@@ -970,7 +970,7 @@ h1, h2, h3, p {
   transform: translate(-50%, -50%);
   padding: 40px;
   border-radius: 4px;
-  background: #fff;
+  background: rgb(0, 34, 57);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   transition: visibility 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275), transform 1s;
   width: 90%;
@@ -986,7 +986,7 @@ h1, h2, h3, p {
   }
 }
 .modal__title {
-  color: #212121;
+  color: rgb(255, 228, 28);
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -1011,7 +1011,7 @@ h1, h2, h3, p {
 .modal__icon {
   width: 18px;
   height: 18px;
-  fill: rgb(33, 33, 33);
+  fill: rgb(255, 228, 28);
   position: absolute;
   top: 55%;
   left: 14px;
@@ -1020,6 +1020,7 @@ h1, h2, h3, p {
   display: block;
   margin-top: 4px;
   margin-bottom: 10px;
+  background-color: #0b2931;
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -1040,6 +1041,7 @@ h1, h2, h3, p {
   margin-bottom: 20px;
   padding: 12px 16px;
   border-radius: 4px;
+  background-color: rgb(11, 41, 49);
   border: 1px solid rgba(33, 33, 33, 0.2);
   width: 100%;
   height: 120px;
@@ -1128,7 +1130,7 @@ h1, h2, h3, p {
 .form__close {
   width: 18px;
   height: 18px;
-  fill: rgb(0, 0, 0);
+  fill: rgb(255, 228, 28);
 }
 
 .card {
